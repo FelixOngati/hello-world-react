@@ -4,14 +4,27 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      <Greet name='Vishwas' heroName='Batman'/>
-      <Greet name='Fegati' heroName='Superman'/>
-      <Greet name='Bruce' heroName='Wonder Woman'/>
-      {/*<Welcome/>*/}
+      <Message/>
+      {/*<Greet name='Vishwas' heroName='Batman'>*/}
+      {/*  <p>This is a paragraph</p>*/}
+      {/*</Greet>*/}
+      {/*<Greet name='Fegati' heroName='Superman'>*/}
+      {/*  <button>Action</button>*/}
+      {/*</Greet>*/}
+      {/*<Greet name='Bruce' heroName='Wonder Woman'/>*/}
+
+      {/* <Welcome name='Vishwas' heroName='Batman'>*/}
+      {/*  <p>This is a paragraph</p>*/}
+      {/*</Welcome>*/}
+      {/*<Welcome name='Fegati' heroName='Superman'>*/}
+      {/*  <button>Action</button>*/}
+      {/*</Welcome>*/}
+      {/*<Welcome name='Bruce' heroName='Wonder Woman'/>*/}
       {/*<Hello/>*/}
     </div>
   );
