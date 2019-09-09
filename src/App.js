@@ -11,17 +11,17 @@ function App() {
   return (
     <div className="App">
       <Counter/>
-      {/*<Greet name='Vishwas' heroName='Batman'>*/}
+      <Greet name='Vishwas' heroName='Batman'>
       {/*  <p>This is a paragraph</p>*/}
-      {/*</Greet>*/}
+      </Greet>
       {/*<Greet name='Fegati' heroName='Superman'>*/}
       {/*  <button>Action</button>*/}
       {/*</Greet>*/}
       {/*<Greet name='Bruce' heroName='Wonder Woman'/>*/}
 
-      {/* <Welcome name='Vishwas' heroName='Batman'>*/}
+       <Welcome name='Vishwas' heroName='Batman'>
       {/*  <p>This is a paragraph</p>*/}
-      {/*</Welcome>*/}
+      </Welcome>
       {/*<Welcome name='Fegati' heroName='Superman'>*/}
       {/*  <button>Action</button>*/}
       {/*</Welcome>*/}
