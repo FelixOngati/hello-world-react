@@ -1,22 +1,26 @@
 import React, { Component } from 'react';
+import Welcome from './Welcome';
 
 class UserGreeting extends Component {
     constructor(props){
         super(props)
 
         this.state = {
-            isLoggegIn: false
+            isLoggegIn: true
         }
     }
     render() {
-        let message
-        if(this.state.isLoggegIn){
-            message = 'Welcome Felix'
-        }else{
-            message = 'Welcome Guest'
-        }
+        return this.state.isLoggegIn ? <div>Welcome Felix</div> : <div>Welcome Guest</div>
 
-        return <div>{message}</div>
+
+        // let message
+        // if(this.state.isLoggegIn){
+        //     message = 'Welcome Felix'
+        // }else{
+        //     message = 'Welcome Guest'
+        // }
+
+        // return <div>{message}</div>
 
         // if (this.state.isLoggegIn){
         //     return(
